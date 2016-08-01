@@ -1,8 +1,6 @@
-# botBelly
-This is a slack bot intended to help with food ordering and delivery.
+# gBot
+This is a slack bot intended to help consolidate galvanize curriculum.
 
 # Under The Hood
 - Slack API (interface)
-- Locu API (menus)
-- Postmates API (delivery)
-- Stripe API (payment)
+- GitHub API (data)

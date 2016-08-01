@@ -12,6 +12,7 @@ gBot.spawn({
   if (err) {
     throw new Error('Could not connect to slack');
   }
+  console.log(bot)
 })
 
 gBot.on(['direct_message', 'direct_mention', 'mention'], function(bot, message) {
