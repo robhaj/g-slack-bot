@@ -1,0 +1,7 @@
+name: gBot
+description: A simple gBot
+config:
+- name: GITHUB_KEY
+  friendly_name: API Key for GitHub
+  type: secret
+  global: true

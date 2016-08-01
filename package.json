@@ -1,0 +1,23 @@
+{
+  "name": "botBelly",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "botkit": "0.0.15",
+    "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
+    "express": "~4.13.1",
+    "geocodio": "^2.0.0",
+    "locu": "0.0.4",
+    "morgan": "~1.6.1",
+    "node-wit": "^3.0.0",
+    "request-promise": "^2.0.1",
+    "serve-favicon": "~2.3.0",
+    "wit-node": "0.0.5",
+    "pg": "4.5.3",
+    "pg-query": "0.11.0"
+  }
+}

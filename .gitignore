@@ -1,0 +1,4 @@
+_config.js
+.env
+/node_modules
+locujs
