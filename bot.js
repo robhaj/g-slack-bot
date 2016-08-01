@@ -12,7 +12,8 @@ gBot.spawn({
   if (err) {
     throw new Error('Could not connect to slack');
   }
-  bot.hears('Hi', ['direct_message', 'direct_mention', 'mention'], function(bot, message) {
-    bot.reply('Please link all relevant curriculum resources to Git')
-  });
 })
+
+gBot.on(['direct_message', 'direct_mention', 'mention'], function(bot, message) {
+  bot.reply('Please link all relevant curriculum resources to Git')
+});
