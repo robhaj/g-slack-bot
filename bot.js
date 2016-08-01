@@ -15,5 +15,5 @@ gBot.spawn({
 })
 
 gBot.on(['direct_message', 'direct_mention', 'mention'], function(bot, message) {
-  bot.reply('Please link all relevant curriculum resources to Git')
+  bot.reply(message, 'Please link all relevant curriculum resources to Git')
 });
